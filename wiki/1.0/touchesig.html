@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+    
+<!-- Mirrored from Fearless RP.fr/wiki/1.0/touchesig by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jul 2022 20:57:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <!-- META Tags -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Fearless RP- Wiki</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- SEO -->
+        <meta name="author" content="Fearless RPRP">
+        <meta name="description" content="Wiki pour le serveur RP Fearless RP">
+        <meta name="keywords" content="wiki, Fearless RPRp, serveur, Role-play">
+        <meta name="twitter:card" value="summary">
+                    <link rel="canonical" href="touchesig.html" />
+                                                                <meta property="og:title" content="Fearless RPRP - Wiki" />
+                                                                <meta property="og:type" content="article" />
+                                                                                                                        
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../vendor/binarytorch/larecipe/assets/css/app.css">
+
+                    <!-- Favicon -->
+            <link rel="apple-touch-icon" href="../../img/logo.png">
+            <link rel="shortcut icon" type="image/png" href="../../img/logo.png"/>
+        
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="../../vendor/binarytorch/larecipe/assets/css/font-awesome.css">
+                    <link rel="stylesheet" href="../../vendor/binarytorch/larecipe/assets/css/font-awesome-v4-shims.css">
+        
+        <!-- Dynamic Colors -->
+        <style>
+    :root {
+        --primary: #cc00ff;
+        --secondary: #57007f;
+    }
+
+    :not(pre)>code[class*=language-], pre[class*=language-] {
+        border-top: 3px solid #cc00ff;
+    }
+    
+    .bg-gradient-primary {
+        background: linear-gradient(87deg, #cc00ff 0, #57007f 100%) !important;
+    }
+
+    [v-cloak] > * { 
+        display: none; 
+    }
+    
+    [v-cloak]::before { 
+        content: " ";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #F2F6FA;
+    }
+</style>
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="Cjpa3d1FOAUkLiKl3USMllrjPbQhSkAT5e572OOt">
+
+                                    <link rel="stylesheet" href="../styles/LaRecipeDarkTheme.css">
+                    
+    </head>
+    <body>
+        <div id="app" v-cloak>
+            <div class="fixed pin-t pin-x z-40">
+    <div class="bg-gradient-primary text-white h-1"></div>
+
+    <nav class="flex items-center justify-between text-black bg-navbar shadow-xs h-16">
+        <div class="flex items-center flex-no-shrink">
+            <a href="../../index.html" class="flex items-center flex-no-shrink text-black mx-4 ">
+                <img src="../../img/logolong.png" alt="Fearless RP" class="max-w-sm h-8">
+            </a>
+
+            <div class="switch">
+                <input type="checkbox" name="1" id="1" v-model="sidebar" class="switch-checkbox" />
+                <label class="switch-label" for="1"></label>
+            </div>
+        </div>
+
+        <div class="block mx-4 flex items-center">
+                            <larecipe-button id="search-button"
+                    :type="searchBox ? 'primary' : 'link'"
+                    @click="searchBox = ! searchBox"
+                    class="px-4">
+                    <i class="fas fa-search" id="search-button-icon"></i>
+                </larecipe-button>
+            
+
+        </div>
+    </nav>
+</div>
+            <internal-search-box
+            v-if="searchBox"
+            @close="searchBox = false"
+            version-url="https://Fearless RP.fr/wiki/1.0"
+            search-url="https://Fearless RP.fr/wiki/search-index/1.0"
+        ></internal-search-box>
+    
+            <div>
+	<div class="sidebar" :class="[{'is-hidden': ! sidebar}]">
+    <ul>
+<li>
+<h2>Serveur</h2>
+<ul>
+    <li><a href="wiki.html">Fearless RP </a></li>
+    <li><a href="aide.html  ">Aide</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+</ul>
+</li>
+<li>
+<h2>FiveM</h2>
+<ul>
+<li><a href="touchesig.html">Touches IG</a></li>
+</ul>
+</li>
+</ul>
+</div>	
+	<div class="documentation is-dark" :class="{'expanded': ! sidebar}">
+		<h1>Nos touches IG ?</h1>
+<p><br>
+<br></p>
+<larecipe-card>
+    <larecipe-badge type="success" circle class="mr-3" icon="fa fa-heart"></larecipe-badge> 100% Adapté à la conduite manette.
+    <larecipe-progress type="success" :value="100"></larecipe-progress>
+</larecipe-card>
+<larecipe-card>
+    <larecipe-badge type="success" circle class="mr-3" icon="fa fa-heart"></larecipe-badge> 50% des touches sont configurables depuis le menu.
+    <larecipe-progress type="success" :value="50"></larecipe-progress>
+</larecipe-card>
+<larecipe-card>
+    <larecipe-badge type="success" circle class="mr-3" icon="fa fa-heart"></larecipe-badge> 100% AZERTY.
+    <larecipe-progress type="success" :value="100"></larecipe-progress>
+</larecipe-card>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Touches</th>
+<th style="text-align: center;">Commandes</th>
+<th style="text-align: center;">Fonction</th>
+<th style="text-align: center;">Configurable depuis les options ?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">F5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Menu personnel</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;">I</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Ouvrir votre inventaire</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Arrêter une animation</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">ESPACE</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Frein à main</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">²</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">lever les bras</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">Flêche de droite</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Clignottant droit</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">Flêche de gauche</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Clignottant gauche</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">mettre la ceinture</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">U</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Limitateur de vitesse</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">f6</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">menu job</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">cienture de securiter</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">utuliser le megaphone</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">verr maj</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">pour parler en radio</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">N</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">parler dans une deuxieme radio</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Changer la portée de votre voix</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;">F9</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Ouvrir le menu véhicule</td>
+<td style="text-align: center;">OUI</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/wheelchair</td>
+<td style="text-align: center;">une chaise roulante que pour les EMS</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/telfix</td>
+<td style="text-align: center;">pour corriger les problemme visuel sur le telephone</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/place (0,1,2,3)</td>
+<td style="text-align: center;">change de place dans un vehicule</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/airbag</td>
+<td style="text-align: center;">afficher l'airbag d'un véhicule</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/me</td>
+<td style="text-align: center;">créer des messages au dessus de vous</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/e et le nom de l'animation</td>
+<td style="text-align: center;">pour faire une animation sans le chercher dans le menu animation</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Flêche haut</td>
+<td style="text-align: center;">pour baisser les vitres</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/stop_animation</td>
+<td style="text-align: center;">arrêter l'animation en cours</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/otage</td>
+<td style="text-align: center;">prendre une prendre une personne en otage avec une arme</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/p</td>
+<td style="text-align: center;">prendre une personne sur le dos</td>
+<td style="text-align: center;">NON</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">/cartesim</td>
+<td style="text-align: center;">menu pour gérer vos cartes sim</td>
+<td style="text-align: center;">NON</td>
+</tr>
+</tbody>
+</table>
+			</div>
+</div>
+
+            <larecipe-back-to-top></larecipe-back-to-top>
+        </div>
+
+
+        <script>
+            window.config = [];
+        </script>
+
+        <script type="text/javascript">
+            if(localStorage.getItem('larecipeSidebar') == null) {
+                localStorage.setItem('larecipeSidebar', !! 1);
+            }
+        </script>
+
+        <script src="../../vendor/binarytorch/larecipe/assets/js/app.js"></script>
+
+        <script>
+            window.LaRecipe = new CreateLarecipe(config)
+        </script>
+
+        <!-- Google Analytics -->
+                <!-- /Google Analytics -->
+
+        
+        <script>
+            LaRecipe.run()
+        </script>
+    </body>
+
+<!-- Mirrored from Fearless RP.fr/wiki/1.0/touchesig by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jul 2022 20:57:52 GMT -->
+</html>
